@@ -1,0 +1,1274 @@
+Started GET "/" for 127.0.0.1 at 2018-02-06 01:16:27 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (40.5ms)
+Completed 200 OK in 1104ms (Views: 79.4ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2018-02-06 01:16:29 +0100
+Processing by Rails::WelcomeController#index as */*
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (30.6ms)
+Completed 200 OK in 210ms (Views: 128.2ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2018-02-06 01:16:30 +0100
+Processing by Rails::WelcomeController#index as */*
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (9.1ms)
+Completed 200 OK in 285ms (Views: 85.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-06 01:16:30 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (6.7ms)
+Completed 200 OK in 30ms (Views: 14.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2018-02-06 01:16:30 +0100
+Processing by Rails::WelcomeController#index as */*
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (16.6ms)
+Completed 200 OK in 230ms (Views: 120.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2018-02-06 01:16:30 +0100
+Processing by Rails::WelcomeController#index as */*
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (16.3ms)
+Completed 200 OK in 219ms (Views: 99.1ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2018-02-06 01:18:51 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/pages"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started HEAD "/pages" for 127.0.0.1 at 2018-02-06 01:18:52 +0100
+  
+ActionController::RoutingError (No route matches [HEAD] "/pages"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started HEAD "/pages" for 127.0.0.1 at 2018-02-06 01:18:53 +0100
+  
+ActionController::RoutingError (No route matches [HEAD] "/pages"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (2.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (1.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to DeviseCreateUsers (20180206002625)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180206002625"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-02-06 00:29:56.201327"], ["updated_at", "2018-02-06 00:29:56.201327"]]
+  [1m[35m (5.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-02-06 01:30:52 +0100
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (131.3ms)
+Completed 401 Unauthorized in 13974ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery' with type 'application/javascript'
+Checked in these paths: 
+  /Users/mac/d/rails/AirPikachu/app/assets/config
+  /Users/mac/d/rails/AirPikachu/app/assets/images
+  /Users/mac/d/rails/AirPikachu/app/assets/javascripts
+  /Users/mac/d/rails/AirPikachu/app/assets/stylesheets
+  /Users/mac/.rvm/gems/ruby-2.3.1@rails5.1/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/mac/.rvm/rubies/ruby-2.3.1/lib/ruby/gems/2.3.0/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/mac/.rvm/rubies/ruby-2.3.1/lib/ruby/gems/2.3.0/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/mac/.rvm/gems/ruby-2.3.1@rails5.1/gems/turbolinks-source-5.1.0/lib/assets/javascripts
+  /Users/mac/d/rails/AirPikachu/node_modules
+  /Users/mac/.rvm/gems/ruby-2.3.1@rails5.1/gems/bootstrap-sass-3.3.7/assets/stylesheets
+  /Users/mac/.rvm/gems/ruby-2.3.1@rails5.1/gems/bootstrap-sass-3.3.7/assets/javascripts
+  /Users/mac/.rvm/gems/ruby-2.3.1@rails5.1/gems/bootstrap-sass-3.3.7/assets/fonts
+  /Users/mac/.rvm/gems/ruby-2.3.1@rails5.1/gems/bootstrap-sass-3.3.7/assets/images):
+    4:     <title>AirPikachu</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/javascripts/application.js:13
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___2502448978562404774_70093881746760'
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-02-06 01:31:22 +0100
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (3.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (61.7ms)
+Completed 401 Unauthorized in 636ms (ActiveRecord: 1.2ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery' with type 'application/javascript'
+Checked in these paths: 
+  /Users/mac/d/rails/AirPikachu/app/assets/config
+  /Users/mac/d/rails/AirPikachu/app/assets/images
+  /Users/mac/d/rails/AirPikachu/app/assets/javascripts
+  /Users/mac/d/rails/AirPikachu/app/assets/stylesheets
+  /Users/mac/.rvm/gems/ruby-2.3.1@rails5.1/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/mac/.rvm/rubies/ruby-2.3.1/lib/ruby/gems/2.3.0/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/mac/.rvm/rubies/ruby-2.3.1/lib/ruby/gems/2.3.0/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/mac/.rvm/gems/ruby-2.3.1@rails5.1/gems/turbolinks-source-5.1.0/lib/assets/javascripts
+  /Users/mac/d/rails/AirPikachu/node_modules
+  /Users/mac/.rvm/gems/ruby-2.3.1@rails5.1/gems/bootstrap-sass-3.3.7/assets/stylesheets
+  /Users/mac/.rvm/gems/ruby-2.3.1@rails5.1/gems/bootstrap-sass-3.3.7/assets/javascripts
+  /Users/mac/.rvm/gems/ruby-2.3.1@rails5.1/gems/bootstrap-sass-3.3.7/assets/fonts
+  /Users/mac/.rvm/gems/ruby-2.3.1@rails5.1/gems/bootstrap-sass-3.3.7/assets/images):
+    4:     <title>AirPikachu</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/javascripts/application.js:13
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__851389014907291098_70258663754820'
+Started HEAD "/users/sign_up" for 127.0.0.1 at 2018-02-06 01:31:26 +0100
+Processing by Devise::RegistrationsController#new as */*
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (6.5ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (43.0ms)
+Completed 401 Unauthorized in 201ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery' with type 'application/javascript'
+Checked in these paths: 
+  /Users/mac/d/rails/AirPikachu/app/assets/config
+  /Users/mac/d/rails/AirPikachu/app/assets/images
+  /Users/mac/d/rails/AirPikachu/app/assets/javascripts
+  /Users/mac/d/rails/AirPikachu/app/assets/stylesheets
+  /Users/mac/.rvm/gems/ruby-2.3.1@rails5.1/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/mac/.rvm/rubies/ruby-2.3.1/lib/ruby/gems/2.3.0/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/mac/.rvm/rubies/ruby-2.3.1/lib/ruby/gems/2.3.0/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/mac/.rvm/gems/ruby-2.3.1@rails5.1/gems/turbolinks-source-5.1.0/lib/assets/javascripts
+  /Users/mac/d/rails/AirPikachu/node_modules
+  /Users/mac/.rvm/gems/ruby-2.3.1@rails5.1/gems/bootstrap-sass-3.3.7/assets/stylesheets
+  /Users/mac/.rvm/gems/ruby-2.3.1@rails5.1/gems/bootstrap-sass-3.3.7/assets/javascripts
+  /Users/mac/.rvm/gems/ruby-2.3.1@rails5.1/gems/bootstrap-sass-3.3.7/assets/fonts
+  /Users/mac/.rvm/gems/ruby-2.3.1@rails5.1/gems/bootstrap-sass-3.3.7/assets/images):
+    4:     <title>AirPikachu</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/javascripts/application.js:13
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__851389014907291098_70258705275900'
+Started HEAD "/users/sign_up" for 127.0.0.1 at 2018-02-06 01:31:28 +0100
+Processing by Devise::RegistrationsController#new as */*
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (11.5ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (47.2ms)
+Completed 401 Unauthorized in 133ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery' with type 'application/javascript'
+Checked in these paths: 
+  /Users/mac/d/rails/AirPikachu/app/assets/config
+  /Users/mac/d/rails/AirPikachu/app/assets/images
+  /Users/mac/d/rails/AirPikachu/app/assets/javascripts
+  /Users/mac/d/rails/AirPikachu/app/assets/stylesheets
+  /Users/mac/.rvm/gems/ruby-2.3.1@rails5.1/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/mac/.rvm/rubies/ruby-2.3.1/lib/ruby/gems/2.3.0/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/mac/.rvm/rubies/ruby-2.3.1/lib/ruby/gems/2.3.0/gems/actionview-5.1.4/lib/assets/compiled
+  /Users/mac/.rvm/gems/ruby-2.3.1@rails5.1/gems/turbolinks-source-5.1.0/lib/assets/javascripts
+  /Users/mac/d/rails/AirPikachu/node_modules
+  /Users/mac/.rvm/gems/ruby-2.3.1@rails5.1/gems/bootstrap-sass-3.3.7/assets/stylesheets
+  /Users/mac/.rvm/gems/ruby-2.3.1@rails5.1/gems/bootstrap-sass-3.3.7/assets/javascripts
+  /Users/mac/.rvm/gems/ruby-2.3.1@rails5.1/gems/bootstrap-sass-3.3.7/assets/fonts
+  /Users/mac/.rvm/gems/ruby-2.3.1@rails5.1/gems/bootstrap-sass-3.3.7/assets/images):
+    4:     <title>AirPikachu</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/javascripts/application.js:13
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__851389014907291098_70258704975520'
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-02-06 01:33:39 +0100
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.9ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (48.4ms)
+Completed 200 OK in 5111ms (Views: 5039.5ms | ActiveRecord: 1.1ms)
+
+
+Started HEAD "/users/sign_up" for 127.0.0.1 at 2018-02-06 01:33:45 +0100
+Processing by Devise::RegistrationsController#new as */*
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.7ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 164ms (Views: 159.9ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/users/sign_up" for 127.0.0.1 at 2018-02-06 01:33:45 +0100
+Processing by Devise::RegistrationsController#new as */*
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (4.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (40.8ms)
+Completed 200 OK in 287ms (Views: 284.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-06 01:47:16 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (13.7ms)
+Completed 200 OK in 28ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2018-02-06 01:47:16 +0100
+Processing by Rails::WelcomeController#index as */*
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (11.2ms)
+Completed 200 OK in 161ms (Views: 72.1ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2018-02-06 01:47:16 +0100
+Processing by Rails::WelcomeController#index as */*
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (5.6ms)
+Completed 200 OK in 259ms (Views: 78.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-06 01:47:25 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (7.5ms)
+Completed 200 OK in 20ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2018-02-06 01:47:25 +0100
+Processing by Rails::WelcomeController#index as */*
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (12.7ms)
+Completed 200 OK in 162ms (Views: 83.5ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2018-02-06 01:47:25 +0100
+Processing by Rails::WelcomeController#index as */*
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (5.6ms)
+Completed 200 OK in 167ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2018-02-06 01:48:43 +0100
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/pages"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started HEAD "/pages" for 127.0.0.1 at 2018-02-06 01:48:44 +0100
+  
+ActionController::RoutingError (No route matches [HEAD] "/pages"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started HEAD "/pages" for 127.0.0.1 at 2018-02-06 01:48:45 +0100
+  
+ActionController::RoutingError (No route matches [HEAD] "/pages"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/pages/home" for 127.0.0.1 at 2018-02-06 01:48:51 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 4195ms (Views: 4190.0ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/pages/home" for 127.0.0.1 at 2018-02-06 01:48:55 +0100
+Processing by PagesController#home as */*
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 652ms (Views: 452.0ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/pages/home" for 127.0.0.1 at 2018-02-06 01:48:56 +0100
+Processing by PagesController#home as */*
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 282ms (Views: 231.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/navbar-static-top/" for 127.0.0.1 at 2018-02-06 01:49:00 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/navbar-static-top"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/navbar/" for 127.0.0.1 at 2018-02-06 01:49:01 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/navbar"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/navbar-static-top/" for 127.0.0.1 at 2018-02-06 01:49:04 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/navbar-static-top"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/pages/home" for 127.0.0.1 at 2018-02-06 01:49:10 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 431ms (Views: 426.2ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/pages/home" for 127.0.0.1 at 2018-02-06 01:49:11 +0100
+Processing by PagesController#home as */*
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 483ms (Views: 411.2ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/pages/home" for 127.0.0.1 at 2018-02-06 01:49:11 +0100
+Processing by PagesController#home as */*
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 351ms (Views: 294.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2018-02-06 01:49:15 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 156ms (Views: 152.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2018-02-06 01:49:16 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 189ms (Views: 184.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/navbar/" for 127.0.0.1 at 2018-02-06 01:49:20 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/navbar"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/pages/home" for 127.0.0.1 at 2018-02-06 01:49:23 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 192ms (Views: 186.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2018-02-06 01:49:23 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 345ms (Views: 340.8ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/pages/home" for 127.0.0.1 at 2018-02-06 01:49:23 +0100
+Processing by PagesController#home as */*
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 501ms (Views: 440.4ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/pages/home" for 127.0.0.1 at 2018-02-06 01:49:24 +0100
+Processing by PagesController#home as */*
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 584ms (Views: 413.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2018-02-06 01:51:35 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 103ms (Views: 98.8ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/pages/home" for 127.0.0.1 at 2018-02-06 01:51:35 +0100
+Processing by PagesController#home as */*
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 398ms (Views: 363.7ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/pages/home" for 127.0.0.1 at 2018-02-06 01:51:36 +0100
+Processing by PagesController#home as */*
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 472ms (Views: 283.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2018-02-06 01:53:06 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 123ms (Views: 119.0ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/pages/home" for 127.0.0.1 at 2018-02-06 01:53:06 +0100
+Processing by PagesController#home as */*
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 185ms (Views: 150.5ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/pages/home" for 127.0.0.1 at 2018-02-06 01:53:06 +0100
+Processing by PagesController#home as */*
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 330ms (Views: 214.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2018-02-06 01:53:10 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 111ms (Views: 106.8ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/pages/home" for 127.0.0.1 at 2018-02-06 01:53:11 +0100
+Processing by PagesController#home as */*
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 467ms (Views: 405.9ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/pages/home" for 127.0.0.1 at 2018-02-06 01:53:11 +0100
+Processing by PagesController#home as */*
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 204ms (Views: 159.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2018-02-06 01:54:24 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 401 Unauthorized in 152ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial shared/_navbar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/mac/d/rails/AirPikachu/app/views"
+  * "/Users/mac/.rvm/gems/ruby-2.3.1@rails5.1/gems/devise-4.4.1/app/views"
+):
+     9:   </head>
+    10: 
+    11:   <body>
+    12:       <%= render "shared/navbar" %>
+    13:       <p class="notice"><%= notice %></p>
+    14:        <p class="alert"><%= alert %></p>
+    15: 
+  
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___221812887072736438_70234290639640'
+Started HEAD "/pages/home" for 127.0.0.1 at 2018-02-06 01:54:25 +0100
+Processing by PagesController#home as */*
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 401 Unauthorized in 611ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial shared/_navbar with {:locale=>[:en], :formats=>[:html, :text, :js, :css, :ics, :csv, :vcf, :png, :jpeg, :gif, :bmp, :tiff, :svg, :mpeg, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json, :pdf, :zip, :gzip], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/mac/d/rails/AirPikachu/app/views"
+  * "/Users/mac/.rvm/gems/ruby-2.3.1@rails5.1/gems/devise-4.4.1/app/views"
+):
+     9:   </head>
+    10: 
+    11:   <body>
+    12:       <%= render "shared/navbar" %>
+    13:       <p class="notice"><%= notice %></p>
+    14:        <p class="alert"><%= alert %></p>
+    15: 
+  
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___221812887072736438_70234307555800'
+Started HEAD "/pages/home" for 127.0.0.1 at 2018-02-06 01:54:27 +0100
+Processing by PagesController#home as */*
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 401 Unauthorized in 279ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial shared/_navbar with {:locale=>[:en], :formats=>[:html, :text, :js, :css, :ics, :csv, :vcf, :png, :jpeg, :gif, :bmp, :tiff, :svg, :mpeg, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json, :pdf, :zip, :gzip], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/mac/d/rails/AirPikachu/app/views"
+  * "/Users/mac/.rvm/gems/ruby-2.3.1@rails5.1/gems/devise-4.4.1/app/views"
+):
+     9:   </head>
+    10: 
+    11:   <body>
+    12:       <%= render "shared/navbar" %>
+    13:       <p class="notice"><%= notice %></p>
+    14:        <p class="alert"><%= alert %></p>
+    15: 
+  
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___221812887072736438_70234317531680'
+Started GET "/pages/home" for 127.0.0.1 at 2018-02-06 01:55:19 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+Completed 200 OK in 101ms (Views: 96.9ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/pages/home" for 127.0.0.1 at 2018-02-06 01:55:19 +0100
+Processing by PagesController#home as */*
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+Completed 200 OK in 264ms (Views: 217.6ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/pages/home" for 127.0.0.1 at 2018-02-06 01:55:20 +0100
+Processing by PagesController#home as */*
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+Completed 200 OK in 425ms (Views: 373.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2018-02-06 01:59:59 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+  Rendered shared/_navbar.html.erb (316.5ms)
+Completed 401 Unauthorized in 428ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `user_sign_in?' for #<#<Class:0x007fc160d20400>:0x007fc168271a10>
+Did you mean?  user_signed_in?):
+    14:         <div id="navbar" class="navbar-collapse collapse">
+    15:           <ul class="nav navbar-nav">
+    16: 
+    17:             <%if  (!user_sign_in?) %>
+    18:               <li><a href="#about">About</a></li>
+    19:             <li><a href="#contact">Contact</a></li>
+    20:             <% else %>
+  
+app/views/shared/_navbar.html.erb:17:in `_app_views_shared__navbar_html_erb__3986915030508005600_70234326925800'
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___221812887072736438_70234329617800'
+Started HEAD "/pages/home" for 127.0.0.1 at 2018-02-06 02:00:01 +0100
+Processing by PagesController#home as */*
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (339.4ms)
+Completed 401 Unauthorized in 639ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `user_sign_in?' for #<#<Class:0x007fc160d20400>:0x007fc16751e0e8>
+Did you mean?  user_signed_in?):
+    14:         <div id="navbar" class="navbar-collapse collapse">
+    15:           <ul class="nav navbar-nav">
+    16: 
+    17:             <%if  (!user_sign_in?) %>
+    18:               <li><a href="#about">About</a></li>
+    19:             <li><a href="#contact">Contact</a></li>
+    20:             <% else %>
+  
+app/views/shared/_navbar.html.erb:17:in `_app_views_shared__navbar_html_erb__3986915030508005600_70234315189920'
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___221812887072736438_70234319095860'
+Started HEAD "/pages/home" for 127.0.0.1 at 2018-02-06 02:00:03 +0100
+Processing by PagesController#home as */*
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (453.8ms)
+Completed 401 Unauthorized in 899ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `user_sign_in?' for #<#<Class:0x007fc160d20400>:0x007fc1675bd170>
+Did you mean?  user_signed_in?):
+    14:         <div id="navbar" class="navbar-collapse collapse">
+    15:           <ul class="nav navbar-nav">
+    16: 
+    17:             <%if  (!user_sign_in?) %>
+    18:               <li><a href="#about">About</a></li>
+    19:             <li><a href="#contact">Contact</a></li>
+    20:             <% else %>
+  
+app/views/shared/_navbar.html.erb:17:in `_app_views_shared__navbar_html_erb__3986915030508005600_70234319022040'
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___221812887072736438_70234319355000'
+Started GET "/pages/home" for 127.0.0.1 at 2018-02-06 02:00:22 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered shared/_navbar.html.erb (9.8ms)
+Completed 200 OK in 133ms (Views: 127.8ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/pages/home" for 127.0.0.1 at 2018-02-06 02:00:22 +0100
+Processing by PagesController#home as */*
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+Completed 200 OK in 375ms (Views: 335.3ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/pages/home" for 127.0.0.1 at 2018-02-06 02:00:22 +0100
+Processing by PagesController#home as */*
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+Completed 200 OK in 259ms (Views: 192.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2018-02-06 02:02:20 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+Completed 200 OK in 106ms (Views: 101.5ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/pages/home" for 127.0.0.1 at 2018-02-06 02:02:20 +0100
+Processing by PagesController#home as */*
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+Completed 200 OK in 384ms (Views: 345.3ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/pages/home" for 127.0.0.1 at 2018-02-06 02:02:20 +0100
+Processing by PagesController#home as */*
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+Completed 200 OK in 308ms (Views: 212.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2018-02-06 02:03:45 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered shared/_navbar.html.erb (702.3ms)
+Completed 401 Unauthorized in 815ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_user_registation_path' for #<#<Class:0x007fc160d20400>:0x007fc16718d410>
+Did you mean?  new_user_registration_path
+               new_user_registration_url
+               cancel_user_registration_path
+               new_registration_path
+               new_user_session_path):
+    16: 
+    17:             <%if  (!user_signed_in?) %>
+    18:               <li><%= link_to new_user_session_path %></li>
+    19:               <li><%= link_to new_user_registation_path %></li>
+    20:             <% else %>
+    21:               <li class="dropdown">
+    22:               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+  
+app/views/shared/_navbar.html.erb:19:in `_app_views_shared__navbar_html_erb__3986915030508005600_70234327415520'
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___221812887072736438_70234316170940'
+Started HEAD "/pages/home" for 127.0.0.1 at 2018-02-06 02:03:47 +0100
+Processing by PagesController#home as */*
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+  Rendered shared/_navbar.html.erb (690.8ms)
+Completed 401 Unauthorized in 1049ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_user_registation_path' for #<#<Class:0x007fc160d20400>:0x007fc168a52838>
+Did you mean?  new_user_registration_path
+               new_user_registration_url
+               cancel_user_registration_path
+               new_registration_path
+               new_user_session_path):
+    16: 
+    17:             <%if  (!user_signed_in?) %>
+    18:               <li><%= link_to new_user_session_path %></li>
+    19:               <li><%= link_to new_user_registation_path %></li>
+    20:             <% else %>
+    21:               <li class="dropdown">
+    22:               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+  
+app/views/shared/_navbar.html.erb:19:in `_app_views_shared__navbar_html_erb__3986915030508005600_70234319939200'
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___221812887072736438_70234326952520'
+Started HEAD "/pages/home" for 127.0.0.1 at 2018-02-06 02:03:49 +0100
+Processing by PagesController#home as */*
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+  Rendered shared/_navbar.html.erb (630.0ms)
+Completed 401 Unauthorized in 886ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_user_registation_path' for #<#<Class:0x007fc160d20400>:0x007fc167596ae8>
+Did you mean?  new_user_registration_path
+               new_user_registration_url
+               cancel_user_registration_path
+               new_registration_path
+               new_user_session_path):
+    16: 
+    17:             <%if  (!user_signed_in?) %>
+    18:               <li><%= link_to new_user_session_path %></li>
+    19:               <li><%= link_to new_user_registation_path %></li>
+    20:             <% else %>
+    21:               <li class="dropdown">
+    22:               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+  
+app/views/shared/_navbar.html.erb:19:in `_app_views_shared__navbar_html_erb__3986915030508005600_70234326483540'
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___221812887072736438_70234319612960'
+Started GET "/pages/home" for 127.0.0.1 at 2018-02-06 02:04:38 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.6ms)
+  Rendered shared/_navbar.html.erb (6.8ms)
+Completed 401 Unauthorized in 147ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 0, expected 1+)):
+    16: 
+    17:             <%if  (!user_signed_in?) %>
+    18:               <li><%= link_to new_user_session_path %></li>
+    19:               <li><%= link_to new_registration_path %></li>
+    20:             <% else %>
+    21:               <li class="dropdown">
+    22:               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+  
+app/views/shared/_navbar.html.erb:19:in `_app_views_shared__navbar_html_erb__3986915030508005600_70234318776700'
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___221812887072736438_70234330558420'
+Started HEAD "/pages/home" for 127.0.0.1 at 2018-02-06 02:04:39 +0100
+Processing by PagesController#home as */*
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+  Rendered shared/_navbar.html.erb (72.7ms)
+Completed 401 Unauthorized in 471ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 0, expected 1+)):
+    16: 
+    17:             <%if  (!user_signed_in?) %>
+    18:               <li><%= link_to new_user_session_path %></li>
+    19:               <li><%= link_to new_registration_path %></li>
+    20:             <% else %>
+    21:               <li class="dropdown">
+    22:               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+  
+app/views/shared/_navbar.html.erb:19:in `_app_views_shared__navbar_html_erb__3986915030508005600_70234289526280'
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___221812887072736438_70234290358960'
+Started HEAD "/pages/home" for 127.0.0.1 at 2018-02-06 02:04:41 +0100
+Processing by PagesController#home as */*
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered shared/_navbar.html.erb (34.4ms)
+Completed 401 Unauthorized in 362ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 0, expected 1+)):
+    16: 
+    17:             <%if  (!user_signed_in?) %>
+    18:               <li><%= link_to new_user_session_path %></li>
+    19:               <li><%= link_to new_registration_path %></li>
+    20:             <% else %>
+    21:               <li class="dropdown">
+    22:               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+  
+app/views/shared/_navbar.html.erb:19:in `_app_views_shared__navbar_html_erb__3986915030508005600_70234329534000'
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___221812887072736438_70234315471840'
+Started GET "/pages/home" for 127.0.0.1 at 2018-02-06 02:04:55 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (11.2ms)
+  Rendered shared/_navbar.html.erb (2.5ms)
+Completed 200 OK in 138ms (Views: 134.1ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/pages/home" for 127.0.0.1 at 2018-02-06 02:04:55 +0100
+Processing by PagesController#home as */*
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (2.1ms)
+Completed 200 OK in 376ms (Views: 329.5ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/pages/home" for 127.0.0.1 at 2018-02-06 02:04:55 +0100
+Processing by PagesController#home as */*
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered shared/_navbar.html.erb (1.9ms)
+Completed 200 OK in 440ms (Views: 341.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2018-02-06 02:05:10 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered shared/_navbar.html.erb (2.4ms)
+Completed 200 OK in 128ms (Views: 123.7ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/pages/home" for 127.0.0.1 at 2018-02-06 02:05:10 +0100
+Processing by PagesController#home as */*
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered shared/_navbar.html.erb (2.2ms)
+Completed 200 OK in 435ms (Views: 377.7ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/pages/home" for 127.0.0.1 at 2018-02-06 02:05:11 +0100
+Processing by PagesController#home as */*
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+  Rendered shared/_navbar.html.erb (2.1ms)
+Completed 200 OK in 399ms (Views: 269.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2018-02-06 02:05:14 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+  Rendered shared/_navbar.html.erb (20.3ms)
+Completed 200 OK in 154ms (Views: 149.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2018-02-06 02:05:57 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+Completed 200 OK in 123ms (Views: 118.6ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/pages/home" for 127.0.0.1 at 2018-02-06 02:05:57 +0100
+Processing by PagesController#home as */*
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+Completed 200 OK in 404ms (Views: 345.4ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/pages/home" for 127.0.0.1 at 2018-02-06 02:05:58 +0100
+Processing by PagesController#home as */*
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+Completed 200 OK in 387ms (Views: 311.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2018-02-06 02:06:02 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (4.1ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+Completed 200 OK in 131ms (Views: 127.0ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/pages/home" for 127.0.0.1 at 2018-02-06 02:06:02 +0100
+Processing by PagesController#home as */*
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+  Rendered shared/_navbar.html.erb (1.9ms)
+Completed 200 OK in 403ms (Views: 360.4ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/pages/home" for 127.0.0.1 at 2018-02-06 02:06:02 +0100
+Processing by PagesController#home as */*
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+Completed 200 OK in 241ms (Views: 186.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2018-02-06 02:06:05 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+Completed 200 OK in 151ms (Views: 138.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2018-02-06 02:06:11 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.1ms)
+  Rendered shared/_navbar.html.erb (2.2ms)
+Completed 200 OK in 135ms (Views: 131.3ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/pages/home" for 127.0.0.1 at 2018-02-06 02:06:11 +0100
+Processing by PagesController#home as */*
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered shared/_navbar.html.erb (6.7ms)
+Completed 200 OK in 506ms (Views: 409.6ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/pages/home" for 127.0.0.1 at 2018-02-06 02:06:12 +0100
+Processing by PagesController#home as */*
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+Completed 200 OK in 215ms (Views: 165.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2018-02-06 02:06:44 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered shared/_navbar.html.erb (2.0ms)
+Completed 200 OK in 126ms (Views: 119.8ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/pages/home" for 127.0.0.1 at 2018-02-06 02:06:44 +0100
+Processing by PagesController#home as */*
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered shared/_navbar.html.erb (3.8ms)
+Completed 200 OK in 262ms (Views: 219.8ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/pages/home" for 127.0.0.1 at 2018-02-06 02:06:44 +0100
+Processing by PagesController#home as */*
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+  Rendered shared/_navbar.html.erb (2.2ms)
+Completed 200 OK in 438ms (Views: 241.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-02-06 02:06:46 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (111.8ms)
+  Rendered shared/_navbar.html.erb (1.9ms)
+Completed 200 OK in 340ms (Views: 269.9ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-02-06 02:06:47 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (5.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (25.2ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+Completed 200 OK in 212ms (Views: 210.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-02-06 02:06:49 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (15.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (28.4ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+Completed 200 OK in 197ms (Views: 195.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-02-06 02:06:49 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.8ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (15.5ms)
+  Rendered shared/_navbar.html.erb (2.0ms)
+Completed 200 OK in 233ms (Views: 231.3ms | ActiveRecord: 0.0ms)
+
+
